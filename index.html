@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Kickflip Co. Streetwear</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Kickflip Co.</h1>
+    <div id=carrinho>
+      <img src="./shopping-cart.png"> 
+      <p> R$ <span id="total">0.00</span></p>
+    </div>
+  </header>
+  <main>
+    <div class="produtos-container">
+      <div class="produto">
+        <img src="https://static.gordshouse.com.br/public/gordshouse/imagens/produtos/media/tenis-vans-skate-slip-on-checkerboard-off-white-preto-63823b23c6828.png" alt="Tênis Vans Slip-on xadrez">
+        <h2>Vans Slip Xadrez</h2>
+        <p>R$ 299,99</p>
+        <button onclick="adicionarAoCarrinho('Vans Slip Xadrez Off-white',299.99)">Adicionar ao carrinho</button>
+      </div>
+
+      <div class="produto">
+        <img src="https://imgcentauro-a.akamaihd.net/1200x1200/M13C6V02A1.jpg" alt="Tênis Hocks Flat Lite Preto Refletivo">
+        <h2>Hocks Flat Lite</h2>
+        <p>R$ 339,60</p>
+        <button onclick="adicionarAoCarrinho('Tênis Hocks Flat Lite',339.60)">Adicionar ao carrinho</button>
+      </div>
+
+      <div class="produto">
+        <img src="https://imgcentauro-a.akamaihd.net/800x800/M0X6C502A1.jpg" alt="Tênis Qix Skate Retrô AM">
+        <h2>Qix Skate Retrô AM</h2>
+        <p>R$ 364,69</p>
+        <button onclick="adicionarAoCarrinho('Qix Skate Retrô AM',364.69)">Adicionar ao carrinho</button>
+      </div>
+
+      <div class="produto">
+        <img src="https://a-static.mlcdn.com.br/800x560/tenis-freeday-skate-sonar-preto-purple/agilitudeskateshop/fr11002-41/b978d7479e6e38118e81c55fb4ac8afc.jpeg" alt="Tênis Freeday Sonar">
+        <h2>Freeday Sonar</h2>
+        <p>R$ 149,90</p>
+        <button onclick="adicionarAoCarrinho('Freeday Sonar',149.90)">Adicionar ao carrinho</button>
+      </div>
+    </div>
+  </main>
+ 
+  <script src="script.js"></script>
+</body>
+</html>
